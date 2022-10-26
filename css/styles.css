@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid orange;  */
+}
+
+h1{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 51px;
+}
+
+.site-header{
+    background: #222222;
+}
+
+html{
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h3{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.recommendations-list>li{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+}  
+
+.about-description{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.btn-yellow{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.features-list>li{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.lead{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.right-column{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.about-us{
+    width: 254px;
+    margin-left: 126px;
+    font-family: 'Courier New';
+    color: white;
+}
+
+.about-us{
+    position: relative;
+}
+
+.about-us::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-image: url("../img/moon-rocket\ 1.png");
+    height: 438px;
+    width: 438px;
+    top: -100px;
+    left: 394px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-made-in-russia::before{
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url("../img/advantage-icon-1\ 1.png");
+    height: 68px;
+    width: 60px;
+    margin-bottom: 34px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-food::before{
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url("../img/advantage-icon-2\ 1.png");
+    height: 68px;
+    width: 60px;
+    margin-bottom: 34px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-pilots::before{
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url("../img/advantage-icon-3\ 1.png");
+    height: 68px;
+    width: 60px;
+    margin-bottom: 34px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-moon-rover::before{
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url("../img/advantage-icon-4\ 1.png");
+    height: 68px;
+    width: 60px;
+    margin-bottom: 34px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features-list > li{
+    width: 172px;
+}
+
+.left-column{
+    width: 440px;
+}
+
+ 
+.copyrights{
+    width: 162px;
+}
+
+.right-column{
+    width: 440px;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 54px;
+}
+
+ul{
+    list-style: none;
+}
+
+.site-header{
+    padding-bottom: 179px;
+}
+
+.site-menu{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 62px;
+}
+.site-menu > li{
+    margin-right: 30px;
+}
+
+.site-menu > li > a{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+    color: #D4D4D4;
+}
+
+.contacts-menu{
+    display: flex;
+}
+.contacts-menu > li{
+margin-left: 24px;
+}
+
+h1{
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.about-description{
+    margin-bottom: 54px;
+}
+
+.btn-yellow{
+    display: flex;
+}
+
+.features-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+.columns-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.left-column{
+    width: 424px;
+}
+
+.right-column{
+    width: 443px;
+}
+
+.lead{
+    margin-bottom: 44px;
+}
+.btn{
+    width: 240px;
+    height: 50px;
+    color: #000; 
+    border-radius: 25px;
+    background: #FFCB06;
+    padding: 17px 96px 16px 42px;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer-columns-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-columns-container> .left-column{
+    width: 162px;
+}
+
+.footer-columns-container> .right-column{
+    flex-grow: 1;
+}
+
+
+.footer-menu{
+    margin-left: 98px;
+}
+
+.footer-submenu{
+    margin-top: 70px;
+}
+
+.site-header{
+    background: #222222;
+}
+
+.features{
+    background-color: #131313;
+    padding-bottom: 79px;                        
+}
+
+.features-list>li{
+    width: 172px;
+    color: #D4D4D4;
+    font-family: Verdana;
+}
+
+.recommendations-list{
+    margin-top: 27px;
+}
+
+.recommendations{
+    padding-bottom: 126px;
+}
+
+.recommendations-list>li{
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 30px;
+}
+
+.recommendations-list>li::before{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    background-color: #FFCB06;
+}
+
+.btn-yellow::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-image: url("../img/right-arrow-dark\ 1.png");
+    height: 16px;
+    width: 19px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 17px;
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.icon-mail{
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url("../img/mail-icon\ 1.png");
+    height: 12px;
+    width: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-phone{
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url("../img/phone-icon\ 1.png");
+    height: 17px;
+    width: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-column>p{
+    margin-bottom: 23px;
+}
+
+.site-footer{
+    background: #131313;
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+
+.fotter-submenu-title{
+    color: #D4D4D4;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.company-title{
+    color: #D4D4D4;
+    margin-left: 15px;
+}
+
+.copyrights{
+    margin-top: 110px;
+    margin-right: 98px;
+    width: 162px;
+    color: #555555;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-columns-container>.left-column{
+    width: 162px;
+}
+
+.footer-columns-container>.right-column{
+    flex-grow: 1;
+}
+
+.footer-menu{
+    margin-left: 98px;
+}
+
+.footer-submenu>li>a{
+    color: #888888;
+    text-decoration: none;
+}
+
+.footer-columns-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-submenu{
+    margin-top: 70px;
+}
+
+.site-footer{
+    background: #131313;
+    padding-top: 80px;
+    padding-top: 90px;
+}
+
+.footer-submenu-title{
+    color: #D4D4D4;
+    font-family: 'Verdana';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-submenu>li{
+   margin-bottom: 20px;
+}
+
+.footer-submenu-title::after{
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 189px;
+    height: 1px;
+    background-color: #555555;
+}
+
+
